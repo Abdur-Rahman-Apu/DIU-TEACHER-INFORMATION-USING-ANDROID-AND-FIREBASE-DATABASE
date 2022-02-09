@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "347257238901",
+    "firebase_url": "https://androidyasin-bd02f-default-rtdb.firebaseio.com",
+    "project_id": "androidyasin-bd02f",
+    "storage_bucket": "androidyasin-bd02f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:347257238901:android:47ee4702191ae04fb48f3c",
+        "android_client_info": {
+          "package_name": "com.example.diu_connect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "347257238901-aju1pu85o24k85sfh557on868bjtmotm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHOmklGicMgAy9cXnt58TDImH5qYtLcIw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "347257238901-aju1pu85o24k85sfh557on868bjtmotm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

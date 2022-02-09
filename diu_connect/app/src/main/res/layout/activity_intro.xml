@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Intro"
+
+
+    android:background="#3498db">
+
+
+    <ImageView
+        android:id="@+id/intro_img"
+        android:layout_width="232dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginBottom="52dp"
+        android:src="@drawable/diu"
+        app:civ_border_color="@color/purple_700"
+        app:civ_border_width="2dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/intro_text"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/intro_text"
+        android:layout_width="345dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginBottom="28dp"
+        android:text="DIU TEACHER INFORMATION"
+        android:textAlignment="center"
+        android:textColor="#ecf0f1"
+        android:textSize="25sp"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toTopOf="@+id/intro_img"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.451"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="118dp"
+        android:background="#f1c40f"
+        android:text="GO"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/intro_img" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
